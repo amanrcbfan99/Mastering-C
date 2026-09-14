@@ -1,20 +1,13 @@
 # include <stdio.h>
 int main() {
 
-    int numone;
-    printf("Enter first number : "  );
-    scanf("%d", &numone);
+    int number ;
+    printf("Enter a number : ");
+    scanf("%d", &number);
+    printf("Single : %d\n", number);
+    printf("double : %d\n", 2*number);
+    printf("Tripple : %d\n", 3*number);
 
-        int numtwo;
-    printf("Enter first number : "  );
-    scanf("%d", &numtwo);
-
-    int numthree;
-    printf("Enter third number : "  );
-    scanf("%d", &numthree);
-
-    int avg = (numone + numtwo + numthree)/3;
-    printf("%d", avg);
 
 return 0;
 }
