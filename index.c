@@ -1,10 +1,18 @@
 # include <stdio.h>
 int main() {
 
-    int number;
-    printf("Enter the number : ");
-    scanf("%d", &number);
-    printf("%d", number%10);
+    // int number;
+    int a = 10;
+    int b = 20;
+    int temp ;
+
+    temp = a;
+    a = b;
+    b = temp;
+
+
+    printf("%d %d\n", a, b);
+
 
 return 0;
 }
