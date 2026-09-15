@@ -2,11 +2,13 @@
 int main() {
 
     int number ;
-    printf("Enter a number : ");
+    printf("Enter the number : ");
     scanf("%d", &number);
-    printf("Single : %d\n", number);
-    printf("double : %d\n", 2*number);
-    printf("Tripple : %d\n", 3*number);
+    if(number%2==0){
+        printf("Number is Even");
+    } else{
+        printf("Number is odd");
+    }
 
 
 return 0;
